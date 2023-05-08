@@ -44,22 +44,21 @@ export const Home = (): JSX.Element => {
                 width={"48px"}
                 height={"48px"}
               />
-              <Text color="grey4">Hello, my name is {userData.nameUser}</Text>
+              <Text color="grey4">Hello, my name is {userData.nameUser}. I started coding around 2022</Text>
             </Flex>
             <Text as="h1" type="heading1" color="grey5">
-            I{" "}
+            Full Stack Development student{" "}
               <Text as="span" type="heading1" color="brand1">
-                love
+                at
               </Text>{" "}
-              creating and{" "}
+              Kenzie Academy Brazil{" "}
               <Text as="span" type="heading1" color="brand1">
-                developing
-              </Text>{" "}
-              projects
+              | React | Javascript | HTML | CSS |
+              </Text>
             </Text>
             <Text type="body1" color="grey2">
-              Discover here in this environment, created especially for you, all
-              my projects and technologies
+              My first project I started with HTML, CSS and JavaScript;
+So I went deeper and learned Object Oriented Programming, Scrum, Github, UX notions, React, Hooks, TypeScript, Componentization, use of component libraries, NodeJs, Express, SQL Database, PostgreSQL, ORM, TypeORM; And I'm currently learning Consumption APIs with Python.
             </Text>
             <HeaderButtonsArea>
               <Button as="a" type="primary" href="#projects">
