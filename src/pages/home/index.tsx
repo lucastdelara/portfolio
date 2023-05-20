@@ -44,14 +44,14 @@ export const Home = (): JSX.Element => {
                 width={"48px"}
                 height={"48px"}
               />
-              <Text color="grey4">Hello, my name is {userData.nameUser}. I started coding around 2022</Text>
+              <Text color="grey4">Hello, my name is 
+                <Text as="span" type="heading1" color="brand1">
+                  {userData.nameUser}
+                </Text>{" "}
+              </Text>
             </Flex>
             <Text as="h1" type="heading1" color="grey5">
-            Full Stack Development student{" "}
-              <Text as="span" type="heading1" color="brand1">
-                at
-              </Text>{" "}
-              Kenzie Academy Brazil{" "}
+            Front End Developer{" "}
               <Text as="span" type="heading1" color="brand1">
               | React | Javascript | HTML | CSS |
               </Text>
