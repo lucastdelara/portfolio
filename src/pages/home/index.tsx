@@ -44,21 +44,19 @@ export const Home = (): JSX.Element => {
                 width={"48px"}
                 height={"48px"}
               />
-              <Text color="grey4">Hello, my name is 
-                <Text as="span" type="heading1" color="brand1">
-                  {userData.nameUser}
-                </Text>{" "}
+              <Text color="grey4">Hello, my name is {userData.nameUser}.
               </Text>
             </Flex>
             <Text as="h1" type="heading1" color="grey5">
-            Front End Developer{" "}
-              <Text as="span" type="heading1" color="brand1">
-              | React | Javascript | HTML | CSS |
-              </Text>
+              I'm a Front End Developer
             </Text>
+            <Text as="span" type="heading1" color="brand1">
+              | React | Javascript | HTML | CSS |
+            </Text>
+            
             <Text type="body1" color="grey2">
               My first project I started with HTML, CSS and JavaScript;
-So I went deeper and learned Object Oriented Programming, Scrum, Github, UX notions, React, Hooks, TypeScript, Componentization, use of component libraries, NodeJs, Express, SQL Database, PostgreSQL, ORM, TypeORM; And I'm currently learning Consumption APIs with Python.
+              So I went deeper and learned Object Oriented Programming, Scrum, Github, UX notions, React, Hooks, TypeScript, Componentization, use of component libraries, NodeJs, Express, SQL Database, PostgreSQL, ORM, TypeORM; And I'm currently learning Consumption APIs with Python.
             </Text>
             <HeaderButtonsArea>
               <Button as="a" type="primary" href="#projects">
